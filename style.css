@@ -1,0 +1,343 @@
+.header {
+    display: flex;
+
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #24232319;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    /* font from instagram website*/
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background-color:#f5f5f5;
+}
+#header-buttons {
+    display: flex;
+    position: relative;
+    padding-left: 24px;
+    margin-right: 12%;
+    margin-top: 5px;
+}
+.headerbutton {
+    margin-right: 20px;
+}
+#logo {
+    display: flex;
+    margin-left: 6%;
+}
+#logoPic {
+    height: 27px;
+    width: 27px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+#searchbox {
+    padding: 15px 12px 15px 40px;
+    margin-top: 3px;
+    text-align: center;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    width: 242px;
+    height: 16px;
+    margin-left: 6%;
+    background-color: #f5f5f5;
+    color: #8f8f8f;
+    font-size: 1em;
+    background-image: url("search.png");
+    background-size: 11px;
+    background-position: 35% 52%;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+#searchbox:focus {
+    background-color: #ffffff;
+    background-position: -10%;
+    outline: none;
+}
+#cursiveLogo {
+    padding-left: 10px;
+}
+.content {
+    padding-top:100px;
+    display: flex;
+    width: 100%;
+}
+#magglass{
+    height:12px;
+    width: auto;
+    align-self: center;
+    position: relative;
+    right:150px;
+}
+#searchbar{
+    display:flex;
+    justify-content:center;
+}
+#col1{
+    width:65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+.posthead{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.user{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.profpic{
+    height:27px;
+    width:27px;
+    padding-top:5px;
+    padding-left: 5px;
+}
+.postimg{
+    display:flex;
+}
+.postp{
+    width:auto;
+
+    max-width: 100%;
+}
+.postinteract{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 8px;
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.bimg{
+    height: 30px;
+    width: 30px;
+}
+.likes{
+    margin-bottom:10px;
+}
+.caption{
+    display:flex;
+    justify-content: left;
+    margin-bottom:10px;
+}
+.time{
+    color:#8f8f8f;
+}
+.capuser{
+    margin-right: 5px;
+    font-weight:bold;
+    color: black;
+    text-decoration: none;
+}
+.comments{
+    display:flex;
+    justify-content: space-between;
+}
+.dots{
+    height: 30px;
+}
+.hr1 {
+    border: none;
+    border-top: 2px solid lightgray;
+    width: 100%;
+    margin: 10px 0;
+}
+.addc{
+    color:gray;
+}
+.suggested{
+    display:flex;
+    flex-direction: column;
+    width:85%;
+    background-color: white;
+    padding: 0px;
+    margin-bottom:500px;
+
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+.r1{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.suggestcap{
+    color: gray;
+}
+.seeall{
+    color:dodgerblue;
+    text-decoration: none;
+}
+.suggestions{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.suggestion{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width:30%;
+    margin-left:20px;
+    align-items: center;
+}
+
+.sugpic{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+.suglink{
+    margin-left: 19%;
+}
+.suggestpicture{
+    margin-top:25px;
+    height:65px;
+}
+.x{
+    height:30px;
+    margin-top:20px;
+    margin-right: 10%;
+}
+.suggestname{
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.suggestinfo{
+    color:#8f8f8f;
+    margin-bottom:10px;
+}
+.followpic{
+    width:auto;
+    max-width: 80%;
+    align-self: center;
+    margin-left:10%;
+    margin-bottom:30px;
+}
+#col2{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+}
+.myprofile{
+    display:flex;
+}
+.myprofpic{
+    width: 60px;
+}
+.myinfo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.myuser{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.myname{
+    color:gray;
+    font-size: 75%;
+}
+.stories{
+    height: 400px; 
+    overflow-y: auto;
+}
+.storieshead{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+.stories2{
+    color:gray;
+}
+.watchall{
+    color:black;
+    text-decoration: none;
+}
+.storypost{
+    display:flex;
+    margin-bottom: 12px;
+}
+.storypic{
+    width: 60px;
+    border-radius:30px;
+}
+.storyinfo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.storyuser{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.storytime{
+    color:gray;
+    font-size: 75%;
+}
+.footer{
+
+    width: 65%;
+
+}
+.footer-link{
+    text-decoration: none;
+    color:gray;
+}
+.copyright{
+    margin-top:20px;
+    color:gray;
+}
+@media (min-width: 1024px) {
+    #col1 {
+        width: 64%;
+    }
+
+    #col2 {
+        visibility: visible;
+        width: 35vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .post {
+        width: 68%;
+    }
+
+    .suggested {
+        width: 68%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #col1 {
+        width: 100%;
+    }
+
+    #col2 {
+        visibility: hidden;
+        width: 0px;
+    }
+}
